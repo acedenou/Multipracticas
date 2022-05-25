@@ -18,7 +18,7 @@ jobs:
         - name: Step one
           uses: actions/checkout@v2
         - name: Step two
-          run: echo %date%
+          run: date
     job3:
         name: jobThree
         runs-on: macos-latest
@@ -35,4 +35,4 @@ jobs:
         - name: Step one
           uses: actions/checkout@v2
         - name: Step two
-          run: echo %date%
+          run: date
